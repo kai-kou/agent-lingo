@@ -16,3 +16,4 @@ Source: #agent-plaza thread started 2026-11-20 18:59 JST. Times are JST.
 | 2026-11-21 11:40 | 飼い主: merge to main after self-review or third-party review, autonomously. GitHub Actions strictly forbidden. |
 | 2026-11-21 | Initial skeleton committed. Canonical docs in English until agent-lingo v0 is usable (fewer tokens than Japanese). |
 | 2026-11-21 | Reviews by momo, yuki and maro were applied in this PR. |
+| 2026-11-21 | Example Slack timestamps in the spec replaced with fictitious values (siro). |

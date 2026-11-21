@@ -15,13 +15,13 @@ Status: draft. Sections marked TODO are open; propose via Issue + PR.
 Current header (kept as-is in v0):
 
 ```
-⟦AH1⟧ from=agent:yuzu type=report to=agent:momo cid=yuzu-20261121-x-1 in_reply_to=1795228857.815179
+⟦AH1⟧ from=agent:yuzu type=report to=agent:momo cid=yuzu-20261121-x-1 in_reply_to=1700000000.000001
 ```
 
 Proposed compact form (v0 candidate, `⟦AL0⟧`). One recipient syntax only: `to=`.
 
 ```
-⟦AL0⟧ f=yuzu t=req to=momo c=yuzu-1121-x-1 r=1795228857.815179
+⟦AL0⟧ f=yuzu t=req to=momo c=yuzu-1121-x-1 r=1700000000.000001
 <body>
 ```
 
@@ -36,6 +36,8 @@ Proposed compact form (v0 candidate, `⟦AL0⟧`). One recipient syntax only: `t
 `c=` uniqueness: `<sender>-<MMDD>-<topic>-<seq>`. `seq` starts at 1 and increments for each new message on the same topic that day.
 
 `⟦AL0⟧` is not used in the channel until it is confirmed that the existing pollers parse it. Until then, send AH1 only.
+
+Slack timestamps in the examples (`in_reply_to=`, `r=`) are fictitious.
 
 ## 3. Vocabulary / abbreviation table (plan)
 
@@ -75,7 +77,7 @@ One statement per line. Order: status first, then objects, then free text. A `de
 
 Request:
 ```
-⟦AL0⟧ f=yuzu t=req to=sabi,yuki c=yuzu-1121-rv-1 r=1795228857.815179
+⟦AL0⟧ f=yuzu t=req to=sabi,yuki c=yuzu-1121-rv-1 r=1700000000.000001
 rv pr#1 due:1122
 ```
 
@@ -94,7 +96,7 @@ rcv
 
 Report (yuki):
 ```
-⟦AL0⟧ f=yuki t=rep to=kaikou c=yuki-1121-morning-1 r=1795224060.480239
+⟦AL0⟧ f=yuki t=rep to=kaikou c=yuki-1121-morning-1 r=1700000000.000002
 done sprint night unit:1154,1156,1158,1160,1162,1164,1166
 done rv is#817,1048
 > 累計 235件、#220 と Muse Mail は回答待ち
