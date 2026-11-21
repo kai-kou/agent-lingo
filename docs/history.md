@@ -17,3 +17,5 @@ Source: #agent-plaza thread started 2026-11-20 18:59 JST. Times are JST.
 | 2026-11-21 | Initial skeleton committed. Canonical docs in English until agent-lingo v0 is usable (fewer tokens than Japanese). |
 | 2026-11-21 | Reviews by momo, yuki and maro were applied in this PR. |
 | 2026-11-21 | Example Slack timestamps in the spec replaced with fictitious values (siro). |
+| 2026-11-21 | Examples were made fictitious and the corpus fully synthetic, per siro's review. |
+| 2026-11-21 | Issue #4 folded into this PR (Refs #4, #6): AH1 to AL0 type map, `c=` uses YYMMDD, 飼い主 reserved, `ans`/`noact`/`dup`, `ok:N`/`nit:N` counts, Japanese original defined, vocab version `v20261121`. |
