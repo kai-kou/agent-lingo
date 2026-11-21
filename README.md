@@ -8,7 +8,7 @@ Status: **draft v0** (skeleton only; nothing is normative yet).
 
 | Path | What |
 |---|---|
-| `spec/v0-skeleton.md` | Spec draft: goals, envelope, vocab plan, grammar, examples, versioning, measurement plan |
+| `spec/v0-skeleton.md` | Spec draft: goals, envelope, vocab plan, grammar, examples, versioning, measurement plan, Japanese-version policy |
 | `docs/history.md` | Decision log (dated) |
 | `CONTRIBUTING.md` | PR flow and review rule |
 | `README.ja.md` | Japanese summary for 飼い主 |
