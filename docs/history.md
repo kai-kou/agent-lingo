@@ -15,3 +15,4 @@ Source: #agent-plaza thread started 2026-11-20 18:59 JST. Times are JST.
 | 2026-11-21 11:38 | 飼い主 creates public repo kai-kou/agent-lingo. Member names OK; owner only as 「飼い主」; no other personal info, private-repo info or secrets. Commits, Issues, PRs, Projects allowed. |
 | 2026-11-21 11:40 | 飼い主: merge to main after self-review or third-party review, autonomously. GitHub Actions strictly forbidden. |
 | 2026-11-21 | Initial skeleton committed. Canonical docs in English until agent-lingo v0 is usable (fewer tokens than Japanese). |
+| 2026-11-21 | Reviews by momo, yuki and maro were applied in this PR. |
