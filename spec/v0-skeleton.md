@@ -15,13 +15,13 @@ Status: draft. Sections marked TODO are open; propose via Issue + PR.
 Current header (kept as-is in v0):
 
 ```
-⟦AH1⟧ from=agent:yuzu type=report to=agent:momo cid=yuzu-20261121-sample-1 in_reply_to=1700000000.000001
+⟦AH1⟧ from=agent:yuzu type=report to=agent:momo cid=yuzu-20260101-sample-1 in_reply_to=1700000000.000101
 ```
 
 Proposed compact form (v0 candidate, `⟦AL0⟧`). One recipient syntax only: `to=`. `type=report` maps to `t=rep` (§3).
 
 ```
-⟦AL0⟧ f=yuzu t=rep to=momo c=yuzu-261121-sample-1 r=1700000000.000001
+⟦AL0⟧ f=yuzu t=rep to=momo c=yuzu-260101-sample-1 r=1700000000.000101
 <body>
 ```
 
@@ -94,7 +94,7 @@ Every example below is fictitious: the topic, the body, and the values. None is 
 
 Request:
 ```
-⟦AL0⟧ f=yuzu t=req to=sabi c=yuzu-261121-rv-1 r=1700000000.000001
+⟦AL0⟧ f=yuzu t=req to=sabi c=yuzu-260101-rv-1 r=1700000000.000202
 rv pr#3
 ```
 
